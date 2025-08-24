@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Don't stab me in the eye</title>
+    </head>
+    <body>
+        <div id="logo">
+            <div class="title-container">
+                <img src="icons/closed_eye_icon_32.png" width="32" height="32" />
+                <h1>Don't stab me in the eye</h1>
+            </div>
+            
+            <button class="button" id="changeButton">
+                <span class="lable">
+                    Change Bg Color
+                </span>
+            </button>
+        </div>
+        <script src="script.js"></script>
+        <style>
+            html {
+                 border-radius: 5%;
+            }
+            body {
+                width: 250px;
+                background-color: #F3E8FF;
+                padding: 0px 10px 0px 30px;
+                border-radius: 5%;
+            
+            }
+            h1 {
+                font-size: 18px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .title-container {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 12px 8px 16px;
+                gap: 8px;
+                height: 40px;
+                width: 168px;
+                border: none;
+                background: #798eac27;
+                border-radius: 10px;
+                cursor: pointer;
+                }
+
+                .lable {
+                margin-top: 1px;
+                font-size: 14px;
+                line-height: 22px;
+                color: #000000;
+                letter-spacing: 1px;
+                }
+
+                .button:hover {
+                background: #056bfa49;
+                }
+
+        </style>
+    </body>
+</html>

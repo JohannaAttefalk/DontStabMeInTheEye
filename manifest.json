@@ -1,0 +1,20 @@
+{
+  "name": "Don't stab me in the Eye",
+  "description": "Change background color on any site to not be blinded by their white mode.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "activeTab"],
+    "icons": {
+    "16": "icons/closed_eye_icon_16.png",
+    "48": "icons/closed_eye_icon_48.png",
+    "128": "icons/closed_eye_icon_128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/closed_eye_icon_16.png",
+      "24": "icons/closed_eye_icon_24.png",
+      "32": "icons/closed_eye_icon_32.png"
+    }
+  }
+}
